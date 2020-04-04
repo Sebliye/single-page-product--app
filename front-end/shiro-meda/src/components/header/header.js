@@ -5,18 +5,19 @@ class Header extends React.Component{
 render(){
 const ShiromedaStyle={
      color:'red',
-     fontSize:'xx-large'
+     fontSize:'xx-large',
+     top:0
 }
 const signupstype={
-     marginLeft:"40em",
+     marginLeft:"50em",
 }
       return(
        <header>
         <ul className="nav">
-          <li style={ShiromedaStyle}><a>Shiro Meda</a></li>
-          <li><a>Add</a></li>
-          <li style={signupstype}><a>signup</a></li>
-          <li><a>SignIn</a></li>
+          <li style={ShiromedaStyle}><a href="/"><strong style={{backgroundColor:'red',color:'white'}}>SHIRO MEDA</strong></a></li>
+          <li style={signupstype}><a href='/'>signup</a></li>
+          <li><a href="/">SignIn</a></li>
+          <li><a href='/'>Add</a></li>
         </ul>
       </header>
     

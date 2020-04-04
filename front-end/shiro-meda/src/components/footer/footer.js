@@ -2,10 +2,10 @@ import React from 'react';
 
 const Footer=(props)=>{
      return(
-      <footer >
-        <div className='footer-text'>
-             <p>Copy Right 2020 ShiroMeda. All right Reserved</p>
-        </div>
+      <footer className='footer-text'>
+        
+             <p style={{position: 'absolute', top: '-6px',marginLeft:'40%'}}>Copy Right 2020 ShiroMeda. All right Reserved</p>
+      
       </footer>
      )
 }
