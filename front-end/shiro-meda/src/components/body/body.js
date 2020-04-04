@@ -3,9 +3,9 @@ import React from 'react';
 const  Body=(props)=> {
 
      return(
-      <body>
-         <img src="../Images/blue.jpeg" alt="blue background"></img>
-      </body>
+      <div>
+         
+      </div>
      )
 }
 export default Body;
