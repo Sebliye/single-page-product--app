@@ -11,7 +11,14 @@ state={
 
 render(){
 return(
-
+     <div className='comment'>
+	     <div className='comment-body'>
+		     {this.props.children}
+		</div>
+	     <div className='comment-author'>
+		     {this.props.author}
+		</div>
+	</div>
 
  )
 }
