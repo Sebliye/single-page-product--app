@@ -1,11 +1,12 @@
 import React from 'react';
+import Aux from '../../hoc/Auxilary'
 
 const  Body=(props)=> {
 
      return(
-      <div>
-         
-      </div>
+      <Aux>
+         s
+      </Aux>
      )
 }
 export default Body;
