@@ -1,9 +1,8 @@
 import React from 'react';
 import Radium from 'radium';
 //import styled from 'styled-components';
-//import './App.css';
-const Header=(props)=> {
-
+class Header extends React.Component{
+render(){
 const ShiromedaStyle={
      color:'red',
      fontSize:'xx-large',
@@ -12,8 +11,8 @@ const ShiromedaStyle={
 const signupstype={
      marginLeft:"50em",
 }
-     return(
-      <header>
+      return(
+       <header>
         <ul className="nav">
           <li style={ShiromedaStyle}><a href="/"><strong style={{backgroundColor:'red',color:'white'}}>SHIRO MEDA</strong></a></li>
           <li style={signupstype}><a href='/'>signup</a></li>
@@ -21,6 +20,8 @@ const signupstype={
           <li><a href='/'>Add</a></li>
         </ul>
       </header>
+    
      )
+}    
 }
 export default Radium(Header);

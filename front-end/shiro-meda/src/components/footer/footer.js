@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Footer=(props)=>{
-
      return(
       <footer className='footer-text'>
         
@@ -9,8 +8,5 @@ const Footer=(props)=>{
       
       </footer>
      )
-
-
-
 }
 export default Footer;
