@@ -6,21 +6,18 @@
   padding:0;
   border-bottom:2px solid red;;
 }
-
 .nav li{
   display:inline-block;
   font-size:20px;
   padding:0px;
   border-bottom:red;
 }
-
 li a{
   display:block;
   color:black;
   padding:12px 12px;
   text-decoration:none;
 }
-
 li a:hover{
   color:rgb(253, 61, 61);
 }
@@ -30,7 +27,15 @@ li a:hover{
   margin-top:33em;
   color: red;
 }
-
-
+@media screen and (max-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+}
 
 

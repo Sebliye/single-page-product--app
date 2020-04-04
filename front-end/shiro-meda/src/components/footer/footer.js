@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Footer=(props)=>{
-
      return(
       <footer >
         <div className='footer-text'>
@@ -9,8 +8,5 @@ const Footer=(props)=>{
         </div>
       </footer>
      )
-
-
-
 }
 export default Footer;

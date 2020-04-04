@@ -1,11 +1,16 @@
 import React from 'react';
 
-const  Body=(props)=> {
+class Body extends React.Component {
 
-     return(
-      <body>
-         <img src="../Images/blue.jpeg" alt="blue background"></img>
-      </body>
+
+   
+render(){
+return(
+      <div>
+         
+      </div>
      )
+}
+     
 }
 export default Body;
