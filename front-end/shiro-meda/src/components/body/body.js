@@ -1,12 +1,13 @@
 import React from 'react';
-import Aux from '../../hoc/Auxilary'
+import Aux from '../../hoc/Auxilary';
+import Comment from '../comment/comment';
 
 class Body extends React.Component {
 
    render(){
      return(
       <Aux>
-         s
+         <Comment/>
       </Aux>
      )
 }
