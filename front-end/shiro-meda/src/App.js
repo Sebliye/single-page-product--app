@@ -1,16 +1,19 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
-import Header from './components/header/header'
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
+import RouterComponents from './routes/Routerjs';
 
-import Comment from './components/comment/comment'
-import Footer from './components/footer/footer'
 function App() {
   return (
-      <div>
-        <Header></Header>
-        <Comment></Comment>
-        <Footer></Footer>
-      </div>
+      <BrowserRouter>
+            <Header></Header>
+
+            <RouterComponents />        {/* it is like body */}
+
+            <Footer></Footer>
+      </BrowserRouter>
   );
 }
 export default App;

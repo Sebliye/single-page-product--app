@@ -1,8 +1,8 @@
 import React from 'react';
-import NewComment from '../newcomment/newcomment';
+import NewComment from '../../components/newcomment/newcomment';
 import Aux from '../../hoc/Auxilary';
-import Rating from './Rating'
-import CommentList from '../commentlist/commentlist';
+import Rating from '../../components/comment/Rating'
+import CommentList from '../../components/commentlist/commentlist';
 
 class Comment extends React.Component{
 

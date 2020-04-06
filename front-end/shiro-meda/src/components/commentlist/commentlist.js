@@ -1,5 +1,5 @@
 import React from 'react';
-import './commentlist.css'
+import './commentlist.css';
 const CommentList=(props)=>{
 return(
      
@@ -15,4 +15,4 @@ return(
 
 
 }
-export default CommentList
+export default CommentList;
