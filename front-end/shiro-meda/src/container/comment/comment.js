@@ -1,7 +1,7 @@
 import React from 'react';
 import NewComment from '../../components/newcomment/newcomment';
 import Aux from '../../hoc/Auxilary';
-import Rating from '../../components/comment/Rating'
+import Rating from '../../components/rating/Rating'
 import CommentList from '../../components/commentlist/commentlist';
 
 class Comment extends React.Component{

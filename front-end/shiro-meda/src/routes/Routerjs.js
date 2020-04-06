@@ -1,15 +1,21 @@
 import React,{ Component } from 'react';
-import { Router, Route } from 'react-router';
+import { Route } from 'react-router';
+import { Router } from 'react-router-dom';
+
+import Comments from '../container/comment/comment';
+import Home from '../container/home/TempHome';
 
 class RouterComponents extends Component{
 
     render(){
      
         return (
-            <Router>
+            <div>
                 
+                <Route path='/' exact strict component={Home}/>
+                <Route path='/comment' exact strict component={Comments}/>
 
-            </Router>
+            </div>
         );
     }
 }
