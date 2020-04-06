@@ -1,5 +1,6 @@
 import React from 'react';
 import Radium from 'radium';
+import './header.css'
 //import styled from 'styled-components';
 class Header extends React.Component{
 render(){
