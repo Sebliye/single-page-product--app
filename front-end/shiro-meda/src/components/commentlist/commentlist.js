@@ -4,7 +4,7 @@ const CommentList=(props)=>{
 return(
      
      <div>
-      <button className='btn' >Write your comment</button>
+      
      <div className='comment'>
           <h3>{props.rates}</h3>
           <h3>{props.type}</h3>
