@@ -3,15 +3,15 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
+const prdRoute = require('./router/router.product');
+
 const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : true}));
 
-// app.get('/',(rq,rs,n)=>{
-//    rs.json('success');
-// })
+app.use(prdRoute);
 
 mongoose.connect('mongodb://localhost:27017/shiromeda', { 
     useNewUrlParser: true, useUnifiedTopology: true }) 
