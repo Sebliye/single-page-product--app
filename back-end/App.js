@@ -13,6 +13,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : true}));
 
 app.use(prdRoute);
+// app.get('/',(rq,rs,n)=>{
+//    rs.json('success');
+// })
 
 mongoose.connect('mongodb://localhost:27017/shiromeda', { 
     useNewUrlParser: true, useUnifiedTopology: true }) 
